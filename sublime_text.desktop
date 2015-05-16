@@ -14,10 +14,10 @@ Actions=Window;Document;
 
 [Desktop Action Window]
 Name=New Window
-Exec=sh -c 'LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text' -n
+Exec=sh -c 'LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text -n'
 OnlyShowIn=Unity;
 
 [Desktop Action Document]
 Name=New File
-Exec=sh -c 'LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text' --command new_file
+Exec=sh -c 'LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text --command new_file'
 OnlyShowIn=Unity;

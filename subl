@@ -1,2 +1,2 @@
 #!/bin/sh
-sh -c 'LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text "%F"'
+sh -c "LD_PRELOAD=/opt/sublime_text/sublime_zh/libsublime_imfix.so /opt/sublime_text/sublime_text \"$@\""
